@@ -1,0 +1,9 @@
+<h1>{{click}}</h1>
+<button (click)="clickIncrementEvent()">Click</button>
+<h1 *ngIf="click >= 5"> Você apertou mais que cinco vezes</h1>
+<button (click)="retornaCep()">cep</button>
+<p>{{endereco.cep}}</p>
+<p>{{endereco.localidade}}</p>
+<p>{{endereco.logradouro}}</p>
+<p>{{endereco.bairro}}</p>
+<p>{{endereco.uf}}</p>
